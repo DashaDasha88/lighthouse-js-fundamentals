@@ -1,7 +1,8 @@
-var x = 10;
-while (x <= 25) {
-  console.log('Printing out x = ' + x);
-  x = x + 2;
+function isThisWorking(input) {
+  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+  return "Returning: I am returning this string!";
 }
 
-console.log('Printing out x = ' + x);
+isThisWorking(3);
+
+console.log(isThisWorking(3));
